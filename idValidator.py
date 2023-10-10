@@ -1,6 +1,6 @@
 def is_keyword(input_str):
     # List of reserved keywords
-    keywords = ["int", "string", "float", "char", "long", "short", "double", "if", "else", "for", "while", "do", "break", "continue"]
+    keywords = ["int", "string", "float", "char", "def", "print", "double", "if", "else", "for", "while", "do", "break", "continue"]
 
     if input_str in keywords:
         return True
